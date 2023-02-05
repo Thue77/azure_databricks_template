@@ -1,0 +1,24 @@
+[project]
+name = "package_name"
+version = "0.1.0"
+description = "Template for Azure function App project"
+authors = [
+    {name = "Thomas Sørensen", email= "thom199b@gmail.com"}
+]
+
+dependencies = [
+    "findspark"
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "pytest-cov"
+]
+
+[build-system]
+requires = [
+    "setuptools",
+    "wheel",
+]
+build-backend = "setuptools.build_meta"

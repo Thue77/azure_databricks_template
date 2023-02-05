@@ -1,0 +1,32 @@
+# questions
+project_name:
+    type: str
+    help: What is your project name?
+
+module_name:
+    type: str
+    help: What is your Python module name?
+
+shortProjectName:
+    type: str
+    help: What is your Python project short name?
+
+subscription:
+    type: str
+    help: What is your Azure subscription id?
+
+tenantId:
+    type: str
+    help: What is your Azure tenant id?
+
+azureADObjectID:
+    type: str
+    help: What is your user id in AAD. You can find this by looking up the user in the portal?
+
+pythonMinorVersion:
+    type: str
+    help: What python version do you want to use in for the form 3.x?
+
+pythonMicroVersion:
+    type: str
+    help: What python version do you want to use in for the form 3.x.y?
